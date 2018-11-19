@@ -1,0 +1,2 @@
+D:\Dev\Unity\JeuSteamVr\TestGravity\FutballGame\obj\Debug\Assembly-CSharp.csprojAssemblyReference.cache
+D:\Dev\Unity\JeuSteamVr\TestGravity\FutballGame\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
