@@ -61,6 +61,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Import\NatureStarterKit2\Editor\ImageEffects\AntialiasingEditor.cs" />
+    <Compile Include="Assets\Import\NatureStarterKit2\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
+    <Compile Include="Assets\Import\NatureStarterKit2\Editor\ImageEffects\BloomEditor.cs" />
+    <Compile Include="Assets\Import\NatureStarterKit2\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
+    <Compile Include="Assets\Import\NatureStarterKit2\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
+    <Compile Include="Assets\Import\NatureStarterKit2\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
+    <Compile Include="Assets\Import\NatureStarterKit2\Editor\ImageEffects\CreaseShadingEditor.cs" />
+    <Compile Include="Assets\Import\NatureStarterKit2\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
+    <Compile Include="Assets\Import\NatureStarterKit2\Editor\ImageEffects\DepthOfFieldEditor.cs" />
+    <Compile Include="Assets\Import\NatureStarterKit2\Editor\ImageEffects\EdgeDetectionEditor.cs" />
+    <Compile Include="Assets\Import\NatureStarterKit2\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
+    <Compile Include="Assets\Import\NatureStarterKit2\Editor\ImageEffects\SunShaftsEditor.cs" />
+    <Compile Include="Assets\Import\NatureStarterKit2\Editor\ImageEffects\TonemappingEditor.cs" />
+    <Compile Include="Assets\Import\NatureStarterKit2\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
     <Compile Include="Assets\Import\SteamVR\Editor\SteamVR_Editor.cs" />
     <Compile Include="Assets\Import\SteamVR\Editor\SteamVR_Preferences.cs" />
     <Compile Include="Assets\Import\SteamVR\Editor\SteamVR_RenderModelEditor.cs" />
@@ -347,6 +361,21 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="Valve.Newtonsoft.Json">
+      <HintPath>D:/Dev/Unity/JeuSteamVr/TestGravity/FutballGame/Assets/Import/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="GLTFSerialization">
+      <HintPath>D:/Dev/Unity/JeuSteamVr/TestGravity/FutballGame/Assets/Sketchfab For Unity/Dependencies/Libraries/GLTFSerialization.dll</HintPath>
+    </Reference>
+    <Reference Include="Ionic.Zip.Unity">
+      <HintPath>D:/Dev/Unity/JeuSteamVr/TestGravity/FutballGame/Assets/Sketchfab For Unity/Dependencies/Libraries/Ionic.Zip.Unity.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:/Dev/Unity/JeuSteamVr/TestGravity/FutballGame/Assets/Sketchfab For Unity/Dependencies/Libraries/Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityGLTF">
+      <HintPath>D:/Dev/Unity/JeuSteamVr/TestGravity/FutballGame/Assets/Sketchfab For Unity/Dependencies/Libraries/UnityGLTF.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/Gueguet/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
     </Reference>
@@ -364,21 +393,6 @@
     </Reference>
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/15.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
-    </Reference>
-    <Reference Include="Valve.Newtonsoft.Json">
-      <HintPath>D:/Dev/Unity/JeuSteamVr/TestGravity/FutballGame/Assets/Import/SteamVR/Input/Plugins/JSON.NET/Valve.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityGLTF">
-      <HintPath>D:/Dev/Unity/JeuSteamVr/TestGravity/FutballGame/Assets/Sketchfab For Unity/Dependencies/Libraries/UnityGLTF.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:/Dev/Unity/JeuSteamVr/TestGravity/FutballGame/Assets/Sketchfab For Unity/Dependencies/Libraries/Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="GLTFSerialization">
-      <HintPath>D:/Dev/Unity/JeuSteamVr/TestGravity/FutballGame/Assets/Sketchfab For Unity/Dependencies/Libraries/GLTFSerialization.dll</HintPath>
-    </Reference>
-    <Reference Include="Ionic.Zip.Unity">
-      <HintPath>D:/Dev/Unity/JeuSteamVr/TestGravity/FutballGame/Assets/Sketchfab For Unity/Dependencies/Libraries/Ionic.Zip.Unity.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>

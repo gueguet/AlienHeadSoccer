@@ -42,14 +42,13 @@ public class HeadForceController : MonoBehaviour {
     {
 
         string nameBallon = collision.collider.gameObject.name;
-        //Debug.Log("collide (name) : " + nameBallon);
 
         GameObject ballonTouched = GameObject.Find(nameBallon);
 
-        ballonTouched.AddComponent<Rigidbody>();
-        multiplicaterForce = 1000;
-        ballonTouched.GetComponent<Rigidbody>().AddForce(multiplicaterForce * headVelocityVectorScalar * gameObject.transform.forward);
+        multiplicaterForce = 800;
 
+        ballonTouched.GetComponent<Rigidbody>().AddForce(multiplicaterForce * headVelocityVectorScalar * (gameObject.transform.forward));
+        ballonTouched.GetComponent<Rigidbody>().mass = 0.5f;
 
         AudioSource hitSound = gameObject.GetComponent<AudioSource>();
         hitSound.Play();
